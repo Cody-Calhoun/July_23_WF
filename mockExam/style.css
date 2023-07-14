@@ -1,0 +1,44 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav Bar */
+
+.nav {
+    background-color: #2B78E4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.nav-right img {
+    width: 45px;
+}
+
+.nav-right input {
+    border-radius: 15px;
+}
+
+.nav-right a {
+    color: white;
+    border-right: 2px solid black;
+    padding-right: 15px;
+}
+
+.cart-total {
+    color: white;
+    position: relative;
+    right: 45px;
+}
